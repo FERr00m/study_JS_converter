@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="/scripts/script.js" defer></script>
+	<title>Converter</title>
+</head>
+<body>
+	<h1>Курс валют</h1>
+	<div class="valutes">
+
+	</div>
+	<h2>Конвертер Рубль &rArr; Валюта</h2>
+	<div class="rub-valutes">
+		<input type="number" name="rub" id="rub" placeholder="Введите сумму в рублях">
+		<select name="valutes" class="select-rub-val">
+			<option value="no">--</option>
+			<option value="USD">USD</option>
+			<option value="EUR">EUR</option>
+		</select>
+		<label for="result">Результат</label>
+		<input type="text" id="result-rub" disabled> 
+	</div>
+	<h2>Конвертер Валюта &rArr; Рубль</h2>
+	<div class="valutes-rub">
+		<input type="number" name="rub" id="valute" placeholder="Введите сумму в валюте">
+		<select name="valutes" class="select-val-rub">
+			<option value="no">--</option>
+			<option value="USD">USD</option>
+			<option value="EUR">EUR</option>
+		</select>
+		<label for="result-valute">Результат</label>
+		<input type="text" id="result-valute" disabled>
+	</div>
+</body>
+</html>

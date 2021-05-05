@@ -1,0 +1,17 @@
+body {
+  background-color: bisque;
+}
+
+input, select {
+  height: 30px;
+}
+
+.valutes {
+  font-weight: 800;
+  font-size: 20px;
+
+}
+
+.valutes>div>span {
+  color: blue;
+}
